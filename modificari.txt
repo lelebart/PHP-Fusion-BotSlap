@@ -1,0 +1,63 @@
+/*-------------------------------------------------------+
+| PHP-Fusion Content Management System
+| Copyright (C) 2002 - 2010 Nick Jones
+| http://www.php-fusion.co.uk/
++--------------------------------------------------------+
+| Copyright © 2006 - 2008 Nicolae Crefelean
+| http://www.phpfusion.ro/
++--------------------------------------------------------+
+| Type: Infusion / Panel
+| Name: BotSlap Panel
+| Version: 1.03
+| Author: Nicolae Crefelean (kneekoo/Nicu)
+| Co-Author: Valerio Vendrame (lelebart)
++--------------------------------------------------------+
+| Filename: modificari.txt
+| Author: Nicolae Crefelean (kneekoo/Nicu)
+| Co-Author: Valerio Vendrame (lelebart)
++--------------------------------------------------------+
+| This program is released as free software under the
+| Affero GPL license. You can redistribute it and/or
+| modify it under the terms of this license which you
+| can read by viewing the included agpl.txt or online
+| at www.gnu.org/licenses/agpl.html. Removal of this
+| copyright header is strictly prohibited without
+| written permission from the original author(s).
++--------------------------------------------------------*/
+
+
+Feb, 2nd, 2010 - Version 1.03 :: by Valerio Vendrame (lelebart)
+---------------------------------------------------------------
++ use showdate() instead of date() //thanks to Fangree_Craig 
+ - shortdate for the panel
+ - longdate for the administrative section
+
+
+Feb, 2nd, 2010 - Version 1.02 :: by Valerio Vendrame (lelebart)
+---------------------------------------------------------------
+- Ported to PHP-Fusion 7 family, v7 mockups
+- General improvements
+- On installation a panel will be added/activated, 
+  and it will be removed on uninstallation
+- Admin interface Rewritten and Restyled
+
+
+04.01.2008 - Versiunea 1.1
+--------------------------
+
+Am creat un panou de control care faciliteaza accesul la toate setarile infuziei:
+
+- Din zona de administrare pot fi lansate manual verificari ale membrilor,
+  atat in mod optimizat (continuand de la ultimul membru verificat),
+  cat si pornind din nou de la primul membru pana la sfarsit.
+
+- Contorul de "palme" poate fi acum resetat daca se doreste acest lucru.
+
+- Intervalul de timp pentru verificarea membrilor poate fi ajustat simplu,
+  nemaifiind necesara modificarea manuala a variabilei $frequency (folosita anterior).
+
+
+02.10.2007 - versiunea 1.0
+--------------------------
+
+- Lansarea initiala

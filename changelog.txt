@@ -1,0 +1,62 @@
+/*-------------------------------------------------------+
+| PHP-Fusion Content Management System
+| Copyright (C) 2002 - 2010 Nick Jones
+| http://www.php-fusion.co.uk/
++--------------------------------------------------------+
+| Copyright © 2006 - 2008 Nicolae Crefelean
+| http://www.phpfusion.ro/
++--------------------------------------------------------+
+| Type: Infusion / Panel
+| Name: BotSlap Panel
+| Version: 1.03
+| Author: Nicolae Crefelean (kneekoo/Nicu)
+| Co-Author: Valerio Vendrame (lelebart)
++--------------------------------------------------------+
+| Filename: changelog.txt
+| Author: Nicolae Crefelean (kneekoo/Nicu)
+| Co-Author: Valerio Vendrame (lelebart)
++--------------------------------------------------------+
+| This program is released as free software under the
+| Affero GPL license. You can redistribute it and/or
+| modify it under the terms of this license which you
+| can read by viewing the included agpl.txt or online
+| at www.gnu.org/licenses/agpl.html. Removal of this
+| copyright header is strictly prohibited without
+| written permission from the original author(s).
++--------------------------------------------------------*/
+
+Feb, 2nd, 2010 - Version 1.03 :: by Valerio Vendrame (lelebart)
+---------------------------------------------------------------
++ use showdate() instead of date() //thanks to Fangree_Craig 
+ - shortdate for the panel
+ - longdate for the administrative section
+
+
+Feb, 2nd, 2010 - Version 1.02 :: by Valerio Vendrame (lelebart)
+---------------------------------------------------------------
+- Ported to PHP-Fusion 7 family, v7 mockups
+- General improvements
+- On installation a panel will be added/activated, 
+  and it will be removed on uninstallation
+- Admin interface Rewritten and Restyled
+
+
+04.01.2008 - Version 1.1
+------------------------
+
+I have created a control panel that allows access to all of the infusion's settings:
+
+- From the admin area you will can now launch manual member checks,
+  not only optimized (continuing from the last checked member),
+  but also from the very first member to the last one.
+
+- The slap counter can now be reset if you want.
+
+- The frequency of the member checks can be easily adjusted, manually changing
+  the $frequency variable (previously used) being now outdated.
+
+
+02.10.2007 - version 1.0
+------------------------
+
+- First lanuch
